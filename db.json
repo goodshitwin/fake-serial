@@ -1,15 +1,10 @@
 [
             {
                 id: 0,
-                userStatus: true,
                 name: {
                     org: 'Counterapart',
                     ru: 'Двойник'
                 },
-                slider: [
-                    { id: 0, src: './files/counterapart/counter3.jpg', alt: '' },
-                    { id: 1, src: './files/counterapart/counter4.jpg', alt: '' }
-                ],
                 poster: './files/counterapart/counter1.jpg',
                 date: {
                     start: '2018',
@@ -21,47 +16,11 @@
                 },
                 synopsis: 'Говард Силк — незначительный винтик в бюрократической системе. Однажды герой обнаруживает, что агентство, в котором он работает, на самом деле занимается охраной переходов в параллельное измерение.',
                 gengre: 'детектив',
-                slogan: {
-                    org: 'What if there were another you?',
-                    ru: 'А что, если бы был другой ты?'
-                },
                 chanel: 'STARZ',
-                season: [
-                    {
-                        id: 0,
-                        nomber: 1,
-                        name: '',
-                        date: '28.12.2018',
-                        userStatus: false,
-                        episodes: [
-                            { id: 0, nomber: 1, name: 'The Crossing', date: '28.12.2018',  synopsis: 'Говард Силк — незначительный винтик в бюрократической системе', userStatus: false},
-                            { id: 1, nomber: 2, name: 'The Crossing', date: '28.12.2018', synopsis: 'в котором он работает, на самом деле занимается', userStatus: false }
-                        ]
-                    }
-                ],
-                similar: [0, 2, 4],
-                description: [
-                    { id: 0, text: 'Факт 1' },
-                    { id: 1, text: 'Факт 2' },
-                    { id: 2, text: 'Факт 3' },
-                ],
                 rating: {
                     imdb: '8.10',
                     kp: '7.37'
                 },
-                editors: 'мнение редакции',
-                creator: {
-                    directors: 'Дж. К. Симмонс',
-                    actors: 'Дж. К. Симмонс',
-                },
-                news: 'новости',
-                duration: 'продолжительность',
-                influence: 'Влияние',
-                quotes: [
-                    { season: 1, episode: 1, text: 'Проигрыш не важен, главное хорошо сыграть' },
-                    { season: 1, episode: 10, text: 'Никто не узнает о твоей жене, пока моя будет в безопастности' }
-                ],
-                footer: './files/counterapart/counter4.jpg'
             },
             {
                 id: 1,
@@ -69,59 +28,14 @@
                     org: 'Expance',
                     ru: 'Пространство'
                 },
-                userStatus: false,
-                slider: [
-                    { id: 0, src: './files/expance/expance2.jpg', alt: '' },
-                    { id: 1, src: './files/counterapart/expance3.jpg', alt: '' }
-                ],
                 poster: './files/expance/expance1.jpg',
-                date: {
-                    start: '2018',
-                    end: ''
-                },
-                synopsis: 'Говард Силк — незначительный винтик в бюрократической системе. Однажды герой обнаруживает, что агентство, в котором он работает, на самом деле занимается охраной переходов в параллельное измерение.',
+                synopsis: 'В начале XXIII века детектив, привыкший всё доводить до конца при любых обстоятельствах, в рамках расследования дела об исчезновении молодой женщины оказывается на борту звездолета, капитан которого решает ему помочь. Величайший заговор в истории человечества гарантируется, как и его непременное раскрытие',
                 gengre: 'детектив',
                 chanel: 'Amazon Prime Video',
-                season: [
-                    {
-                        id: 0,
-                        nomber: 1,
-                        name: '',
-                        date: '28.12.2018',
-                        episodes: [
-                            { id: 0, nomber: 1, name: 'The Crossing', date: '28.12.2018' }
-                        ]
-                    },
-                    {
-                        id: 1,
-                        nomber: 2,
-                        name: '',
-                        date: '28.12.2018',
-                        episodes: [
-                            { id: 0, nomber: 1, name: 'The Crossing', date: '28.12.2018' },
-                            { id: 1, nomber: 2, name: 'The Crossing', date: '28.12.2018' }
-                        ]
-                    }
-                ],
-                similar: [0, 2, 4],
-                description: [
-                    { id: 0, text: 'Факт 1' },
-                    { id: 1, text: 'Факт 2' },
-                    { id: 2, text: 'Факт 3' },
-                ],
                 rating: {
                     imdb: '8.10',
                     kp: '7.37'
                 },
-                editors: 'мнение редакции',
-                creator: {
-                    directors: 'Дж.К. Симмонс',
-                    actors: 'Дж.К. Симмонс',
-                },
-                news: 'новости',
-                duration: 'продолжительность',
-                influence: 'Влияние',
-                footer: './files/counterapart/counter4.jpg'
             },
             {
                 id: 2,
@@ -129,62 +43,18 @@
                     org: 'Life on Mars',
                     ru: 'Жинь на марсе(USA)'
                 },
-                userStatus: false,
-                slider: [
-                    { id: 0, src: './files/life_on_mars/mars2.jpg', alt: '' },
-                    { id: 1, src: './files/life_on_mars/mars3.jpg', alt: '' }
-                ],
                 poster: './files/life_on_mars/mars1.jpg',
-                date: {
-                    start: '2008',
-                    end: '2009'
-                },
                 country: {
                     org: 'USA',
                     ru: 'США'
                 },
                 synopsis: 'Детектив Сэм Тайлер охотится за маньяком Колином Реймсом. Очередной жертвой преступника становится коллега и возлюбленная Сэма Майа, и он готов на все ради ее спасения. Неожиданно Тайлера сбивает автомобиль, а очнувшись, он понимает, что оказался в 1973 году. Здесь он тоже работает в 125-м полицейском участке и расследует дело о серийном убийце. Самое удивительное, что почерк преступника очень похож на методы Реймса.',
                 gengre: 'детектив',
-                slogan: {
-                    org: 'Back in the nick of time',
-                    ru: 'Назад в самый последний момент'
-                },
                 chanel: 'ABC',
-                season: [
-                    {
-                        id: 0,
-                        nomber: 1,
-                        name: '',
-                        date: '28.12.2018',
-                        episodes: [
-                            { id: 0, nomber: 1, name: 'The Crossing', date: '28.12.2018' },
-                            { id: 1, nomber: 2, name: 'The Crossing', date: '28.12.2018' }
-                        ]
-                    }
-                ],
-                similar: [0, 2, 4],
-                description: [
-                    { id: 0, text: 'Факт 1' },
-                    { id: 1, text: 'Факт 2' },
-                    { id: 2, text: 'Факт 3' },
-                ],
                 rating: {
                     imdb: '7.40',
                     kp: '7.7'
                 },
-                editors: 'мнение редакции',
-                creator: {
-                    directors: 'Дж. К. Симмонс',
-                    actors: 'Дж. К. Симмонс',
-                },
-                news: 'новости',
-                duration: 'продолжительность',
-                influence: 'Влияние',
-                quotes: [
-                    { season: 1, episode: 1, text: 'Проигрыш не важен, главное хорошо сыграть' },
-                    { season: 1, episode: 10, text: 'Никто не узнает о твоей жене, пока моя будет в безопастности' }
-                ],
-                footer: './files/counterapart/counter4.jpg'
             },
             {
                 id: 3,
@@ -192,60 +62,14 @@
                     org: "It's Always Sunny in Philadelphia",
                     ru: 'В Филадельфии всегда солнечно'
                 },
-                userStatus: false,
-                slider: [
-                    { id: 0, src: './files/its_always_sunny_in_philadelphia/sunny4.jpg', alt: '' },
-                    { id: 1, src: './files/its_always_sunny_in_philadelphia/sunny3.jpg', alt: '' },
-                    { id: 2, src: './files/its_always_sunny_in_philadelphia/sunny5.jpg', alt: '' }
-                ],
                 poster: './files/its_always_sunny_in_philadelphia/sunny2.png',
-                date: {
-                    start: '2005',
-                    end: ''
-                },
                 synopsis: 'Ситком повествует о четырёх друзьях, которые держат ирландский бар в не самом лучшем районе Филадельфии. То же самое можно сказать и о самих героях - они настроены враждебно друг к другу, всегда ссорятся, врут и пытаются что-то друг другу доказать, попадая из-за этого в самые нелепые и смешные ситуации.',
                 gengre: 'комедия',
                 chanel: 'FX',
-                season: [
-                    {
-                        id: 0,
-                        nomber: 1,
-                        name: '',
-                        date: '28.12.2018',
-                        episodes: [
-                            { id: 0, nomber: 1, name: 'The Crossing', date: '28.12.2018' }
-                        ]
-                    },
-                    {
-                        id: 1,
-                        nomber: 2,
-                        name: '',
-                        date: '28.12.2018',
-                        episodes: [
-                            { id: 0, nomber: 1, name: 'The Crossing', date: '28.12.2018' },
-                            { id: 1, nomber: 2, name: 'The Crossing', date: '28.12.2018' }
-                        ]
-                    }
-                ],
-                similar: [0, 2, 4],
-                description: [
-                    { id: 0, text: 'Факт 1' },
-                    { id: 1, text: 'Факт 2' },
-                    { id: 2, text: 'Факт 3' },
-                ],
                 rating: {
                     imdb: '8.80',
                     kp: '7.94'
                 },
-                editors: 'мнение редакции',
-                creator: {
-                    directors: 'Дж.К. Симмонс',
-                    actors: 'Дж.К. Симмонс',
-                },
-                news: 'новости',
-                duration: 'продолжительность',
-                influence: 'Влияние',
-                footer: './files/counterapart/counter4.jpg'
             },
             
         ]
